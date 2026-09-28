@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FrPD organization profile, leadership, team and coverage area.">
+  <title>Organization | FrPD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="organization">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="FrPD Home"><img src="images/logo/frpd-logo.svg" alt="FrPD"></a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html">Home</a>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle active" aria-expanded="false">
+            Organizations <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu" id="orgDropdown"></div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            Compliance &amp; Operational Excellence <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu menu-single">
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">SAEs <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">OE <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            Functions <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu menu-single functions-menu">
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Safety Management System <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Information Security <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Operational Readiness &amp; Support <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Planning &amp; Performance Management <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Human Resources <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">ETP <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            Dashboards <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu menu-single">
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Dashboard 1 <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Dashboard 2 <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Dashboard 3 <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            More <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu menu-single">
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">DrP <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">GIS <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="org-hero">
+      <div class="org-hero-lines" aria-hidden="true"></div>
+      <div class="container org-hero-content reveal">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><i data-lucide="chevron-right"></i><span>Organizations</span><i data-lucide="chevron-right"></i><strong id="breadcrumbOrg">WNA</strong></nav>
+        <div class="org-hero-grid">
+          <div><span class="org-code" id="orgCode">WNA</span><h1 id="orgName">Western North Area</h1><p id="orgDescription">Supporting safe, reliable and efficient operations across the Western North coverage area.</p><a class="btn btn-primary btn-lg" href="#orgTeam">Meet the Team <i data-lucide="arrow-down-right"></i></a></div>
+          <div class="org-hero-visual"><div class="org-monogram" id="orgMonogram">WNA</div><div class="org-visual-stat"><small>Coverage</small><strong id="orgAreaCount">6 Areas</strong></div><div class="org-visual-stat bottom"><small>Focus</small><strong>Safe Operations</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section org-leader-section">
+      <div class="container leader-layout org-leader-layout">
+        <div class="leader-photo reveal"><div class="image-frame"><img id="orgLeaderPhoto" src="images/leaders/leader-primary.jpg" alt="Organization leader photo placeholder"></div></div>
+        <div class="leader-content reveal" data-delay="100"><span class="section-kicker">Organization Leader</span><h2 id="orgLeaderName">Eng. Khalid Al Rashid</h2><p class="org-role" id="orgLeaderRole">WNA Manager</p><blockquote id="orgLeaderQuote">“Consistent performance starts with clear priorities, strong field presence and teams that support one another.”</blockquote><p id="orgLeaderBio">Leads the organization with a focus on safe execution, operational reliability and strong coordination across field and support teams.</p><div class="leader-quickfacts"><div><span>Experience</span><strong>20+ Years</strong></div><div><span>Focus</span><strong>Operations</strong></div><div><span>Region</span><strong id="orgRegionFact">Western North</strong></div></div></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="orgTeam">
+      <div class="container">
+        <div class="team-toolbar reveal">
+          <div><span class="section-kicker">People & Expertise</span><h2>Our Team</h2><p>Find team members by name, role or department.</p></div>
+          <div class="team-tools">
+            <label class="team-search"><i data-lucide="search"></i><input type="search" id="teamSearch" placeholder="Search team members..." aria-label="Search team members"><button id="clearTeamSearch" aria-label="Clear search"><i data-lucide="x"></i></button></label>
+            <div class="carousel-controls" aria-label="Team carousel controls">
+              <button class="carousel-arrow" id="teamPrev" aria-label="Previous team members"><i data-lucide="arrow-left"></i></button>
+              <button class="carousel-arrow" id="teamNext" aria-label="Next team members"><i data-lucide="arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="team-filter-row reveal" id="teamFilters" aria-label="Team department filters"></div>
+        <div class="team-carousel-shell"><div class="team-directory team-carousel" id="teamDirectory"></div></div>
+        <p class="empty-state is-hidden" id="teamEmpty">No team members match your search.</p>
+      </div>
+    </section>
+
+    <section class="section coverage-section">
+      <div class="container">
+        <div class="section-heading split-heading reveal"><div><span class="section-kicker">Operational Footprint</span><h2>Coverage Area</h2></div><p id="coverageDescription">The organization supports a broad operational footprint through coordinated teams, facilities and field locations.</p></div>
+        <div class="coverage-layout">
+          <div class="coverage-map reveal">
+            <div class="map-grid" aria-hidden="true"></div>
+            <div class="map-shape"><span class="map-label" id="mapLabel">WNA</span><span class="map-node n1"></span><span class="map-node n2"></span><span class="map-node n3"></span><span class="map-node n4"></span><span class="map-node n5"></span></div>
+            <div class="map-caption"><i data-lucide="map"></i><div><strong>Map Placeholder</strong><span>Replace with an SVG, image or interactive map later.</span></div></div>
+          </div>
+          <div class="coverage-details reveal" data-delay="80">
+            <div class="coverage-stats"><div><i data-lucide="map-pin"></i><strong id="coverageLocationsCount">6</strong><span>Coverage locations</span></div><div><i data-lucide="building"></i><strong>24/7</strong><span>Operational support</span></div><div><i data-lucide="shield-check"></i><strong>Safety</strong><span>Core priority</span></div></div>
+            <div class="location-list" id="locationList"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><img src="images/logo/frpd-logo.svg" alt="FrPD"><p>A connected corporate portal supporting people, operations, safety and organizational performance.</p><div class="footer-social"><a href="#" aria-label="Internal network"><i data-lucide="network"></i></a><a href="#" aria-label="SharePoint"><i data-lucide="folder-kanban"></i></a><a href="#" aria-label="Employee portal"><i data-lucide="users"></i></a></div></div>
+      <div><h3>Quick Links</h3><a href="index.html#about">About FrPD</a><a href="index.html#services">Services</a><a href="index.html#safety">Safety</a><a href="index.html#news">News</a></div>
+      <div><h3>Organizations</h3><a href="organization.html?org=wna">WNA</a><a href="organization.html?org=wsa">WSA</a><a href="organization.html?org=org3">Organization 3</a><a href="organization.html?org=org4">Organization 4</a></div>
+      <div><h3>Useful Links</h3><a href="index.html#references">Home Portal</a><a href="index.html#references">AGME Portal</a><a href="index.html#references">SharePoint</a><a href="index.html#references">Documents Portal</a></div>
+      <div class="footer-contact"><h3>Contact</h3><p><i data-lucide="mail"></i> frpd@example.com</p><p><i data-lucide="phone"></i> +966 00 000 0000</p><p><i data-lucide="map-pin"></i> Saudi Arabia</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 FrPD. All Rights Reserved.</span><span>Designed for clarity, performance & connection.</span></div>
+  </footer>
+  <button class="back-top" id="backTop" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+</body>
+</html>

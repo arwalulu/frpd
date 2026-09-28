@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FrPD corporate portal for leadership, services, safety, news and organizational information.">
+  <title>FrPD | Corporate Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="FrPD Home">
+        <img src="images/logo/frpd-logo.svg" alt="FrPD">
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
+        <a class="nav-link active" href="index.html">Home</a>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            Organizations <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu" id="orgDropdown"></div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            Compliance &amp; Operational Excellence <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu menu-single">
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">SAEs <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">OE <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            Functions <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu menu-single functions-menu">
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Safety Management System <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Information Security <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Operational Readiness &amp; Support <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Planning &amp; Performance Management <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Human Resources <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">ETP <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            Dashboards <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu menu-single">
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Dashboard 1 <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Dashboard 2 <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">Dashboard 3 <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" aria-expanded="false">
+            More <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="dropdown-menu menu-single">
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">DrP <i data-lucide="external-link"></i></a>
+            <a href="https://www.microsoft365.com/launch/sharepoint" target="_blank" rel="noopener noreferrer">GIS <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="home">
+      <div class="hero-grid-pattern" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> FrPD Corporate Portal</div>
+          <h1>WR/CR Fire Protection<br><span>Department</span></h1>
+          <p class="hero-slogan">Saving Lives and Protecting Assets</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#about">Explore FrPD <i data-lucide="arrow-down-right"></i></a>
+            <a class="btn btn-ghost btn-lg" href="organization.html?org=wna">Our Organizations <i data-lucide="arrow-right"></i></a>
+          </div>
+          <div class="hero-meta">
+            <div><strong>8</strong><span>Organizations</span></div>
+            <div><strong>6</strong><span>Core Services</span></div>
+            <div><strong>1</strong><span>Connected Portal</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="120">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <figure class="hero-fire-card">
+            <img src="https://images.unsplash.com/photo-1783178213882-07678ebc9aa7?auto=format&fit=crop&fm=jpg&q=82&w=1800" alt="Fire truck inside a modern fire station">
+            <div class="hero-fire-overlay" aria-hidden="true"></div>
+            <figcaption>
+              <span><i data-lucide="flame"></i> Emergency Readiness</span>
+              <strong>Prepared to protect people and operations.</strong>
+            </figcaption>
+          </figure>
+          <div class="floating-card fc-one"><i data-lucide="shield-check"></i><div><strong>Safety</strong><span>Always visible</span></div></div>
+          <div class="floating-card fc-two"><i data-lucide="radio-tower"></i><div><strong>Operations</strong><span>Always connected</span></div></div>
+        </div>
+      </div>
+      <div class="hero-scroll"><span>Scroll to explore</span><i data-lucide="mouse"></i></div>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container">
+        <div class="section-heading reveal direction-heading">
+          <span class="section-kicker">Direction & Purpose</span>
+          <h2>What guides FrPD forward.</h2>
+        </div>
+
+        <div class="purpose-layout">
+          <article class="purpose-feature reveal">
+            <div class="purpose-number">01</div>
+            <div class="purpose-icon"><i data-lucide="telescope"></i></div>
+            <span>Vision</span>
+            <h3>To be a trusted, high-performing organization recognized for operational excellence and sustainable value.</h3>
+            <div class="purpose-line"></div>
+          </article>
+          <article class="purpose-feature purpose-dark reveal" data-delay="80">
+            <div class="purpose-number">02</div>
+            <div class="purpose-icon"><i data-lucide="compass"></i></div>
+            <span>Mission</span>
+            <h3>Enable safe, reliable and efficient operations through capable people, disciplined execution and continuous improvement.</h3>
+            <div class="purpose-line"></div>
+          </article>
+        </div>
+
+        <div class="objectives-wrap reveal">
+          <div class="objectives-intro"><span class="section-kicker">Strategic Objectives</span><h3>Turning direction into action</h3></div>
+          <div class="objectives-grid">
+            <article class="objective-item"><span>01</span><i data-lucide="shield-check"></i><h4>Strengthen safety culture</h4><p>Keep safety visible in every decision, task and field activity.</p></article>
+            <article class="objective-item"><span>02</span><i data-lucide="gauge"></i><h4>Improve reliability</h4><p>Support consistent operations through disciplined maintenance and monitoring.</p></article>
+            <article class="objective-item"><span>03</span><i data-lucide="workflow"></i><h4>Simplify work</h4><p>Design practical workflows that reduce friction and improve responsiveness.</p></article>
+            <article class="objective-item"><span>04</span><i data-lucide="users-round"></i><h4>Develop people</h4><p>Build capability, collaboration and ownership across all teams.</p></article>
+            <article class="objective-item"><span>05</span><i data-lucide="bar-chart-3"></i><h4>Use data better</h4><p>Turn operational information into clear, timely decisions.</p></article>
+            <article class="objective-item"><span>06</span><i data-lucide="leaf"></i><h4>Create sustainable value</h4><p>Balance performance, efficiency and long-term organizational impact.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section leader-section">
+      <div class="container leader-layout">
+        <div class="leader-photo reveal">
+          <div class="image-frame"><img src="images/leaders/leader-primary.jpg" alt="FrPD leader photo placeholder"></div>
+          <div class="leader-badge"><i data-lucide="badge-check"></i><span>Leadership<br>Message</span></div>
+        </div>
+        <div class="leader-content reveal" data-delay="100">
+          <span class="section-kicker">Leadership</span>
+          <h2>Focused leadership.<br>Shared responsibility.</h2>
+          <blockquote>“Our strength comes from disciplined execution, open collaboration and a culture where safety and performance move together.”</blockquote>
+          <p>FrPD leadership is committed to enabling teams with clear priorities, practical support and an environment where people can perform at their best.</p>
+          <div class="leader-signature"><strong>Eng. Faisal Al Harbi</strong><span>FrPD General Manager</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="leaders">
+      <div class="container">
+        <div class="team-toolbar home-team-toolbar reveal">
+          <div><span class="section-kicker">People Behind the Work</span><h2>Our Leaders</h2><p>Search leaders by name, role or department.</p></div>
+          <div class="team-tools">
+            <label class="team-search"><i data-lucide="search"></i><input type="search" id="homeTeamSearch" placeholder="Search leaders..." aria-label="Search leaders"><button id="clearHomeTeamSearch" aria-label="Clear search"><i data-lucide="x"></i></button></label>
+            <div class="carousel-controls" aria-label="Leader carousel controls">
+              <button class="carousel-arrow" id="homeTeamPrev" aria-label="Previous leaders"><i data-lucide="arrow-left"></i></button>
+              <button class="carousel-arrow" id="homeTeamNext" aria-label="Next leaders"><i data-lucide="arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="team-carousel-shell">
+        <div class="team-directory home-leaders-directory team-carousel" id="homeTeamDirectory">
+          <article class="team-member reveal"><img src="images/team/leader-1.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Operations</small><h3>Ahmed Al Qahtani</h3><p>Operations Director</p><a href="mailto:leader1@example.com" aria-label="Email Ahmed Al Qahtani"><i data-lucide="mail"></i></a></div></article>
+          <article class="team-member reveal" data-delay="40"><img src="images/team/leader-2.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Safety</small><h3>Sarah Al Otaibi</h3><p>Safety & Compliance Director</p><a href="mailto:leader2@example.com" aria-label="Email Sarah Al Otaibi"><i data-lucide="mail"></i></a></div></article>
+          <article class="team-member reveal" data-delay="80"><img src="images/team/leader-3.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Technical</small><h3>Mohammed Al Dossary</h3><p>Technical Services Director</p><a href="mailto:leader3@example.com" aria-label="Email Mohammed Al Dossary"><i data-lucide="mail"></i></a></div></article>
+          <article class="team-member reveal"><img src="images/team/leader-1.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Maintenance</small><h3>Reem Al Shammari</h3><p>Maintenance Director</p><a href="mailto:leader4@example.com" aria-label="Email Reem Al Shammari"><i data-lucide="mail"></i></a></div></article>
+          <article class="team-member reveal" data-delay="40"><img src="images/team/leader-2.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Field Services</small><h3>Khalid Al Ghamdi</h3><p>Field Services Director</p><a href="mailto:leader5@example.com" aria-label="Email Khalid Al Ghamdi"><i data-lucide="mail"></i></a></div></article>
+          <article class="team-member reveal" data-delay="80"><img src="images/team/leader-3.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Compliance</small><h3>Noura Al Harbi</h3><p>Compliance Manager</p><a href="mailto:leader6@example.com" aria-label="Email Noura Al Harbi"><i data-lucide="mail"></i></a></div></article>
+          <article class="team-member reveal"><img src="images/team/leader-1.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Engineering</small><h3>Abdullah Al Zahrani</h3><p>Engineering Manager</p><a href="mailto:leader7@example.com" aria-label="Email Abdullah Al Zahrani"><i data-lucide="mail"></i></a></div></article>
+          <article class="team-member reveal" data-delay="40"><img src="images/team/leader-2.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Planning</small><h3>Lama Al Salem</h3><p>Planning Manager</p><a href="mailto:leader8@example.com" aria-label="Email Lama Al Salem"><i data-lucide="mail"></i></a></div></article>
+          <article class="team-member reveal" data-delay="80"><img src="images/team/leader-3.jpg" alt="Leader photo placeholder"><div class="team-member-copy"><small>Support</small><h3>Fahad Al Mutairi</h3><p>Business Support Manager</p><a href="mailto:leader9@example.com" aria-label="Email Fahad Al Mutairi"><i data-lucide="mail"></i></a></div></article>
+        </div>
+        </div>
+        <p class="empty-state is-hidden" id="homeTeamEmpty">No leaders match your search.</p>
+      </div>
+    </section>
+
+    <section class="section safety-section" id="safety">
+      <div class="container safety-layout">
+        <div class="safety-intro reveal">
+          <span class="section-kicker light">Safety First</span>
+          <h2>Make the safe choice the easy choice.</h2>
+          <p>Short, practical reminders designed to reinforce safe behavior in offices, facilities and field environments.</p>
+          <div class="safety-stat"><strong>100%</strong><span>Everyone owns safety</span></div>
+        </div>
+        <div class="safety-list reveal" data-delay="80">
+          <article class="safety-card"><span class="safety-no">01</span><i data-lucide="briefcase-business"></i><div><h3>Workplace Safety</h3><p>Keep walkways clear, report hazards early and maintain an organized work area.</p></div><i data-lucide="arrow-up-right" class="tip-arrow"></i></article>
+          <article class="safety-card"><span class="safety-no">02</span><i data-lucide="zap"></i><div><h3>Electrical Safety</h3><p>Inspect equipment before use and never bypass protective controls or barriers.</p></div><i data-lucide="arrow-up-right" class="tip-arrow"></i></article>
+          <article class="safety-card"><span class="safety-no">03</span><i data-lucide="siren"></i><div><h3>Emergency Response</h3><p>Know evacuation routes, emergency numbers and your designated assembly point.</p></div><i data-lucide="arrow-up-right" class="tip-arrow"></i></article>
+          <article class="safety-card"><span class="safety-no">04</span><i data-lucide="hard-hat"></i><div><h3>PPE & Field Safety</h3><p>Use task-specific PPE and verify field conditions before starting work.</p></div><i data-lucide="arrow-up-right" class="tip-arrow"></i></article>
+          <article class="safety-card"><span class="safety-no">05</span><i data-lucide="flame"></i><div><h3>Fire Safety</h3><p>Keep fire equipment accessible and understand alarm and response procedures.</p></div><i data-lucide="arrow-up-right" class="tip-arrow"></i></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading split-heading reveal"><div><span class="section-kicker">What We Enable</span><h2>Our Services</h2></div><p>Connected services designed to support field execution, operational confidence and compliance.</p></div>
+        <div class="services-mosaic">
+          <article class="service-feature reveal"><div class="service-icon"><i data-lucide="activity"></i></div><span>01 / Operational Support</span><h3>Helping teams keep critical work moving.</h3><p>Coordination, performance visibility and practical operational support for day-to-day execution.</p><div class="service-graphic"><span></span><span></span><span></span></div></article>
+          <article class="service-card reveal"><i data-lucide="map-pinned"></i><span>02</span><h3>Field Services</h3><p>On-site coordination and field-focused support where operations happen.</p></article>
+          <article class="service-card reveal" data-delay="50"><i data-lucide="clipboard-check"></i><span>03</span><h3>Inspection</h3><p>Structured inspections supporting assurance, quality and issue visibility.</p></article>
+          <article class="service-card reveal"><i data-lucide="wrench"></i><span>04</span><h3>Maintenance Support</h3><p>Planning and support that strengthens asset reliability and readiness.</p></article>
+          <article class="service-card reveal"><i data-lucide="shield-check"></i><span>05</span><h3>Safety & Compliance</h3><p>Clear controls, monitoring and guidance for safer, compliant execution.</p></article>
+          <article class="service-card reveal" data-delay="50"><i data-lucide="headphones"></i><span>06</span><h3>Technical Support</h3><p>Responsive technical coordination for operational and engineering needs.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="news">
+      <div class="container">
+        <div class="section-heading split-heading reveal">
+          <div><span class="section-kicker">Stay Informed</span><h2>Latest News</h2></div>
+          <p>Select an update to read the full story without leaving the page.</p>
+        </div>
+
+        <div class="news-reader-layout reveal" id="newsReader">
+          <article class="news-reader-main" aria-live="polite">
+            <div class="news-reader-image">
+              <img id="newsReaderImage" src="images/news/news-1.svg" alt="FrPD operational update visual">
+              <span id="newsReaderBadge">Featured Update</span>
+            </div>
+            <div class="news-reader-copy">
+              <div class="news-meta"><span id="newsReaderCategory">Operations</span><time id="newsReaderDate" datetime="2026-09-18">18 Sep 2026</time></div>
+              <h3 id="newsReaderTitle">FrPD launches a refreshed operating rhythm for stronger cross-team alignment</h3>
+              <div class="news-reader-body" id="newsReaderBody"></div>
+            </div>
+          </article>
+
+          <div class="news-selector" id="newsSelector" aria-label="Latest FrPD news"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section video-section">
+      <div class="container">
+        <div class="video-shell reveal">
+          <button class="video-thumb" id="videoOpen" aria-label="Play featured video">
+            <img src="images/news/video-thumb.svg" alt="Featured video thumbnail">
+            <span class="video-play"><i data-lucide="play"></i></span>
+            <span class="video-duration">02:18</span>
+          </button>
+          <div class="video-copy"><span class="section-kicker light">Featured Video</span><h2>Inside FrPD: how connected teams deliver better outcomes</h2><p>A short look at the people, disciplines and shared standards that support FrPD performance.</p><button class="text-link light-link" id="videoOpenText">Watch the story <i data-lucide="play-circle"></i></button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="references">
+      <div class="container references-layout">
+        <div class="references-copy reveal"><span class="section-kicker">Quick Access</span><h2>Your most-used portals, one click away.</h2><p>Keep important internal and external resources easy to find. Update the URLs directly in <strong>js/script.js</strong>.</p><div class="reference-note"><i data-lucide="info"></i><span>Links below use placeholder destinations until your real portal URLs are added.</span></div></div>
+        <div class="reference-grid reveal" id="referenceGrid" data-delay="80"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div><span class="section-kicker light">Need Support?</span><h2>Connect with the right FrPD team.</h2><p>For portal support, organization information or general enquiries, use the contact channels below.</p></div>
+        <div class="contact-actions"><a class="btn btn-white btn-lg" href="mailto:frpd@example.com"><i data-lucide="mail"></i> frpd@example.com</a><a class="btn btn-dark btn-lg" href="tel:+966000000000"><i data-lucide="phone"></i> +966 00 000 0000</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><img src="images/logo/frpd-logo.svg" alt="FrPD"><p>A connected corporate portal supporting people, operations, safety and organizational performance.</p><div class="footer-social"><a href="#" aria-label="Internal network"><i data-lucide="network"></i></a><a href="#" aria-label="SharePoint"><i data-lucide="folder-kanban"></i></a><a href="#" aria-label="Employee portal"><i data-lucide="users"></i></a></div></div>
+      <div><h3>Quick Links</h3><a href="#about">About FrPD</a><a href="#services">Services</a><a href="#safety">Safety</a><a href="#news">News</a></div>
+      <div><h3>Organizations</h3><a href="organization.html?org=wna">WNA</a><a href="organization.html?org=wsa">WSA</a><a href="organization.html?org=org3">Organization 3</a><a href="organization.html?org=org4">Organization 4</a></div>
+      <div><h3>Useful Links</h3><a href="#references">Home Portal</a><a href="#references">AGME Portal</a><a href="#references">SharePoint</a><a href="#references">Documents Portal</a></div>
+      <div class="footer-contact"><h3>Contact</h3><p><i data-lucide="mail"></i> frpd@example.com</p><p><i data-lucide="phone"></i> +966 00 000 0000</p><p><i data-lucide="map-pin"></i> Saudi Arabia</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 FrPD. All Rights Reserved.</span><span>Designed for clarity, performance & connection.</span></div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+
+  <div class="modal" id="videoModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog">
+      <button class="modal-close" data-close-modal aria-label="Close video"><i data-lucide="x"></i></button>
+      <div class="modal-video" id="modalVideoArea"></div>
+      <div class="modal-caption"><h3 id="videoModalTitle">Inside FrPD</h3><p>Replace the featured video configuration in <strong>js/script.js</strong> with a YouTube video ID or local MP4 path.</p></div>
+    </div>
+  </div>
+</body>
+</html>

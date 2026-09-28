@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 72" role="img" aria-labelledby="title desc">
+  <title id="title">FrPD Logo</title><desc id="desc">Stylized FrPD corporate logo</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7a33"/><stop offset="1" stop-color="#b43c0a"/></linearGradient></defs>
+  <rect x="2" y="2" width="68" height="68" rx="20" fill="#171717"/>
+  <path d="M18 50V22h34v9H29v7h20v8H29v4z" fill="url(#g)"/>
+  <circle cx="55" cy="54" r="7" fill="#E0571D"/>
+  <text x="83" y="45" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#171717">FrPD</text>
+  <text x="85" y="61" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="2" fill="#7a7a7a">CORPORATE PORTAL</text>
+</svg>
